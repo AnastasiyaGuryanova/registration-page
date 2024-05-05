@@ -36,7 +36,7 @@ export const RegistrationPage = () => {
 
 	const handleSubmit = (event) => {
 		event.preventDefault();
-		console.log(...getState());
+		console.log(getState());
 		resetState();
 	};
 
